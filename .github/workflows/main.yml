@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REGISTRY: public.ecr.aws/c8e3l5e6/git_workflow_images  # Replace with your registry alias
+  ECR_REGISTRY: public.ecr.aws/c8e3l5e6  # Replace with your registry alias
   ECR_REPOSITORY: git_workflow_images
   IMAGE_TAG: ${{ github.sha }}
 
