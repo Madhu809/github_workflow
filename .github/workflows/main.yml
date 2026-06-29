@@ -62,4 +62,4 @@ jobs:
           git config --global user.name "github-actions"
           git add k8s/deployment.yaml
           git commit -m "Update image to ${{ env.IMAGE_TAG }}" || echo "No changes"
-          git push
+          git 
